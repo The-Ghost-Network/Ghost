@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       const query = formatSearch(input.value);
         localStorage.setItem("url", "/uv/service/ghost/" + __uv$config.encodeUrl(query));
-      window.location.href = "/q.html/";
+      window.location.href = "/q/";
     }
   }
 
