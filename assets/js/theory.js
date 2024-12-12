@@ -3,7 +3,7 @@ function createnav() {
 
   nav.innerHTML = `
   <div class="container">
-        <img onclick="window.location.href='/'" style="width:50px;" src="/assets/img/ghost.png" class="mainIMG"></img>
+        <img onclick="window.location.href='/'" style="width:50px;" src="/assets/img/Ghost.png" class="mainIMG"></img>
         <ul class="nav-links">
           <li><a href="/c/" id="school"><i class="fa-solid fa-gamepad active"></i> Games</a></li>
           <span style="color: var(--Background-Color); opacity: 75%;">|</span>
